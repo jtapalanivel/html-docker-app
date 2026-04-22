@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/jtapalanivel/html-docker-app.git'
+                git branch: 'master', url: 'https://github.com/jtapalanivel/html-docker-app.git'
                 echo 'Code checked out from GitHub'
             }
         }
